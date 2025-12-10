@@ -224,22 +224,22 @@ sudo ip link set can0 up type can bitrate 500000
 
 ## 6.2 多终端启动系统
 
-### 终端 1：TF + 毫米波雷达 + 同步
+**终端1** - 激光雷达
 
 ```bash
-ros2 launch sensor_tf_publisher all_with_sync.launch.py
+source install/setup.bash
+ros2 launch rslidar_sdk start.py
 ```
-
-### 终端 2：相机
-
+**终端2** - 相机
 ```bash
+source install/setup.bash
 ros2 launch miivii_gmsl_camera small_delivery_car_profile1.launch
 ```
 
-### 终端 3：激光雷达
-
+**终端3** - TF + 毫米波雷达 + 同步节点
 ```bash
-ros2 launch rslidar_sdk start.py
+source install/setup.bash
+ros2 launch sensor_tf_publisher all_with_sync.launch.py
 ```
 
 ## 6.3 RViz 显示
