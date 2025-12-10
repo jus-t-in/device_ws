@@ -1,0 +1,84 @@
+[0.021s] Invoking command in '/home/nvidia/work/device_ws/build/rslidar_sdk': CMAKE_PREFIX_PATH=/home/nvidia/work/device_ws/install/rslidar_msg:/home/nvidia/work/device_ws/install/rslidar_sdk:/home/nvidia/work/device_ws/install/pe_ars408_ros:/home/nvidia/work/device_ws/install/miivii_gmsl_camera:/home/nvidia/work/device_ws/install/sync_pkg:/opt/ros/humble LD_LIBRARY_PATH=/home/nvidia/work/device_ws/install/rslidar_msg/lib:/home/nvidia/work/device_ws/install/pe_ars408_ros/lib:/home/nvidia/work/device_ws/install/miivii_gmsl_camera/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib:/usr/local/cuda-12.6/lib64 /usr/bin/cmake /home/nvidia/work/device_ws/src/rslidar_sdk -DCMAKE_INSTALL_PREFIX=/home/nvidia/work/device_ws/install/rslidar_sdk
+[0.095s] -- The C compiler identification is GNU 11.4.0
+[0.177s] -- The CXX compiler identification is GNU 11.4.0
+[0.188s] -- Detecting C compiler ABI info
+[0.293s] -- Detecting C compiler ABI info - done
+[0.304s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.304s] -- Detecting C compile features
+[0.304s] -- Detecting C compile features - done
+[0.309s] -- Detecting CXX compiler ABI info
+[0.432s] -- Detecting CXX compiler ABI info - done
+[0.442s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.442s] -- Detecting CXX compile features
+[0.443s] -- Detecting CXX compile features - done
+[0.444s] [0m=============================================================[0m
+[0.445s] [0m-- POINT_TYPE is XYZI[0m
+[0.445s] [0m=============================================================[0m
+[0.458s] [0m=============================================================[0m
+[0.458s] [0m-- ROS Not Found. ROS Support is turned Off.[0m
+[0.458s] [0m=============================================================[0m
+[0.726s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[0.941s] -- Found rosidl_generator_c: 3.1.7 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[0.948s] -- Found rosidl_adapter: 3.1.7 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[0.960s] -- Found rosidl_generator_cpp: 3.1.7 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[0.978s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[1.001s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[1.064s] -- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[1.067s] -- Found rmw_fastrtps_cpp: 6.2.8 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[1.191s] -- Found OpenSSL: /usr/lib/aarch64-linux-gnu/libcrypto.so (found version "3.0.2")  
+[1.234s] -- Found FastRTPS: /opt/ros/humble/include  
+[1.298s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[1.311s] -- Looking for pthread.h
+[1.422s] -- Looking for pthread.h - found
+[1.422s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[1.537s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
+[1.539s] -- Found Threads: TRUE  
+[1.615s] [0m=============================================================[0m
+[1.615s] [0m-- ROS2 Found. ROS2 Support is turned On.[0m
+[1.615s] [0m=============================================================[0m
+[1.617s] -- Found sensor_msgs: 4.9.0 (/opt/ros/humble/share/sensor_msgs/cmake)
+[1.662s] -- Found rslidar_msg: 0.0.0 (/home/nvidia/work/device_ws/install/rslidar_msg/share/rslidar_msg/cmake)
+[1.689s] [0m=============================================================[0m
+[1.690s] [0m-- CMake run for UNIX GNU Compiler[0m
+[1.690s] [0m=============================================================[0m
+[1.691s] [0m=============================================================[0m
+[1.691s] [0m-- rs_driver Version : v1.5.18[0m
+[1.691s] [0m=============================================================[0m
+[1.823s] -- Configuring done
+[1.843s] -- Generating done
+[1.850s] -- Build files have been written to: /home/nvidia/work/device_ws/build/rslidar_sdk
+[1.872s] Invoked command in '/home/nvidia/work/device_ws/build/rslidar_sdk' returned '0': CMAKE_PREFIX_PATH=/home/nvidia/work/device_ws/install/rslidar_msg:/home/nvidia/work/device_ws/install/rslidar_sdk:/home/nvidia/work/device_ws/install/pe_ars408_ros:/home/nvidia/work/device_ws/install/miivii_gmsl_camera:/home/nvidia/work/device_ws/install/sync_pkg:/opt/ros/humble LD_LIBRARY_PATH=/home/nvidia/work/device_ws/install/rslidar_msg/lib:/home/nvidia/work/device_ws/install/pe_ars408_ros/lib:/home/nvidia/work/device_ws/install/miivii_gmsl_camera/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib:/usr/local/cuda-12.6/lib64 /usr/bin/cmake /home/nvidia/work/device_ws/src/rslidar_sdk -DCMAKE_INSTALL_PREFIX=/home/nvidia/work/device_ws/install/rslidar_sdk
+[1.874s] Invoking command in '/home/nvidia/work/device_ws/build/rslidar_sdk': CMAKE_PREFIX_PATH=/home/nvidia/work/device_ws/install/rslidar_msg:/home/nvidia/work/device_ws/install/rslidar_sdk:/home/nvidia/work/device_ws/install/pe_ars408_ros:/home/nvidia/work/device_ws/install/miivii_gmsl_camera:/home/nvidia/work/device_ws/install/sync_pkg:/opt/ros/humble LD_LIBRARY_PATH=/home/nvidia/work/device_ws/install/rslidar_msg/lib:/home/nvidia/work/device_ws/install/pe_ars408_ros/lib:/home/nvidia/work/device_ws/install/miivii_gmsl_camera/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib:/usr/local/cuda-12.6/lib64 /usr/bin/cmake --build /home/nvidia/work/device_ws/build/rslidar_sdk -- -j6 -l6
+[1.952s] [ 33%] [32mBuilding CXX object CMakeFiles/rslidar_sdk_node.dir/node/rslidar_sdk_node.cpp.o[0m
+[9.031s] [ 66%] [32mBuilding CXX object CMakeFiles/rslidar_sdk_node.dir/src/manager/node_manager.cpp.o[0m
+[44.629s] [100%] [32m[1mLinking CXX executable rslidar_sdk_node[0m
+[44.981s] [100%] Built target rslidar_sdk_node
+[45.001s] Invoked command in '/home/nvidia/work/device_ws/build/rslidar_sdk' returned '0': CMAKE_PREFIX_PATH=/home/nvidia/work/device_ws/install/rslidar_msg:/home/nvidia/work/device_ws/install/rslidar_sdk:/home/nvidia/work/device_ws/install/pe_ars408_ros:/home/nvidia/work/device_ws/install/miivii_gmsl_camera:/home/nvidia/work/device_ws/install/sync_pkg:/opt/ros/humble LD_LIBRARY_PATH=/home/nvidia/work/device_ws/install/rslidar_msg/lib:/home/nvidia/work/device_ws/install/pe_ars408_ros/lib:/home/nvidia/work/device_ws/install/miivii_gmsl_camera/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib:/usr/local/cuda-12.6/lib64 /usr/bin/cmake --build /home/nvidia/work/device_ws/build/rslidar_sdk -- -j6 -l6
+[45.006s] Invoking command in '/home/nvidia/work/device_ws/build/rslidar_sdk': CMAKE_PREFIX_PATH=/home/nvidia/work/device_ws/install/rslidar_msg:/home/nvidia/work/device_ws/install/rslidar_sdk:/home/nvidia/work/device_ws/install/pe_ars408_ros:/home/nvidia/work/device_ws/install/miivii_gmsl_camera:/home/nvidia/work/device_ws/install/sync_pkg:/opt/ros/humble LD_LIBRARY_PATH=/home/nvidia/work/device_ws/install/rslidar_msg/lib:/home/nvidia/work/device_ws/install/pe_ars408_ros/lib:/home/nvidia/work/device_ws/install/miivii_gmsl_camera/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib:/usr/local/cuda-12.6/lib64 /usr/bin/cmake --install /home/nvidia/work/device_ws/build/rslidar_sdk
+[45.020s] -- Install configuration: "Release"
+[45.021s] -- Installing: /home/nvidia/work/device_ws/install/rslidar_sdk/lib/rslidar_sdk/rslidar_sdk_node
+[45.024s] -- Set runtime path of "/home/nvidia/work/device_ws/install/rslidar_sdk/lib/rslidar_sdk/rslidar_sdk_node" to ""
+[45.024s] -- Installing: /home/nvidia/work/device_ws/install/rslidar_sdk/share/rslidar_sdk/launch
+[45.024s] -- Installing: /home/nvidia/work/device_ws/install/rslidar_sdk/share/rslidar_sdk/launch/elequent_start.py
+[45.025s] -- Installing: /home/nvidia/work/device_ws/install/rslidar_sdk/share/rslidar_sdk/launch/start.py
+[45.025s] -- Installing: /home/nvidia/work/device_ws/install/rslidar_sdk/share/rslidar_sdk/launch/start.launch
+[45.025s] -- Installing: /home/nvidia/work/device_ws/install/rslidar_sdk/share/rslidar_sdk/launch/humble_start.py
+[45.026s] -- Installing: /home/nvidia/work/device_ws/install/rslidar_sdk/share/rslidar_sdk/rviz
+[45.026s] -- Installing: /home/nvidia/work/device_ws/install/rslidar_sdk/share/rslidar_sdk/rviz/rviz.rviz
+[45.026s] -- Installing: /home/nvidia/work/device_ws/install/rslidar_sdk/share/rslidar_sdk/rviz/rviz2.rviz
+[45.027s] -- Installing: /home/nvidia/work/device_ws/install/rslidar_sdk/share/ament_index/resource_index/package_run_dependencies/rslidar_sdk
+[45.027s] -- Installing: /home/nvidia/work/device_ws/install/rslidar_sdk/share/ament_index/resource_index/parent_prefix_path/rslidar_sdk
+[45.027s] -- Installing: /home/nvidia/work/device_ws/install/rslidar_sdk/share/rslidar_sdk/environment/ament_prefix_path.sh
+[45.027s] -- Installing: /home/nvidia/work/device_ws/install/rslidar_sdk/share/rslidar_sdk/environment/ament_prefix_path.dsv
+[45.028s] -- Installing: /home/nvidia/work/device_ws/install/rslidar_sdk/share/rslidar_sdk/environment/path.sh
+[45.028s] -- Installing: /home/nvidia/work/device_ws/install/rslidar_sdk/share/rslidar_sdk/environment/path.dsv
+[45.028s] -- Installing: /home/nvidia/work/device_ws/install/rslidar_sdk/share/rslidar_sdk/local_setup.bash
+[45.029s] -- Installing: /home/nvidia/work/device_ws/install/rslidar_sdk/share/rslidar_sdk/local_setup.sh
+[45.029s] -- Installing: /home/nvidia/work/device_ws/install/rslidar_sdk/share/rslidar_sdk/local_setup.zsh
+[45.029s] -- Installing: /home/nvidia/work/device_ws/install/rslidar_sdk/share/rslidar_sdk/local_setup.dsv
+[45.029s] -- Installing: /home/nvidia/work/device_ws/install/rslidar_sdk/share/rslidar_sdk/package.dsv
+[45.030s] -- Installing: /home/nvidia/work/device_ws/install/rslidar_sdk/share/ament_index/resource_index/packages/rslidar_sdk
+[45.030s] -- Installing: /home/nvidia/work/device_ws/install/rslidar_sdk/share/rslidar_sdk/cmake/rslidar_sdkConfig.cmake
+[45.030s] -- Installing: /home/nvidia/work/device_ws/install/rslidar_sdk/share/rslidar_sdk/cmake/rslidar_sdkConfig-version.cmake
+[45.031s] -- Installing: /home/nvidia/work/device_ws/install/rslidar_sdk/share/rslidar_sdk/package.xml
+[45.036s] Invoked command in '/home/nvidia/work/device_ws/build/rslidar_sdk' returned '0': CMAKE_PREFIX_PATH=/home/nvidia/work/device_ws/install/rslidar_msg:/home/nvidia/work/device_ws/install/rslidar_sdk:/home/nvidia/work/device_ws/install/pe_ars408_ros:/home/nvidia/work/device_ws/install/miivii_gmsl_camera:/home/nvidia/work/device_ws/install/sync_pkg:/opt/ros/humble LD_LIBRARY_PATH=/home/nvidia/work/device_ws/install/rslidar_msg/lib:/home/nvidia/work/device_ws/install/pe_ars408_ros/lib:/home/nvidia/work/device_ws/install/miivii_gmsl_camera/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib:/usr/local/cuda-12.6/lib64 /usr/bin/cmake --install /home/nvidia/work/device_ws/build/rslidar_sdk

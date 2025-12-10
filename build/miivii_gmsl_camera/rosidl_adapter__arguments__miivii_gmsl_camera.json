@@ -1,0 +1,6 @@
+{
+  "package_name": "miivii_gmsl_camera",
+  "non_idl_tuples": [
+    "/home/nvidia/work/device_ws/src/miivii_gmsl_camera/miivii_gmsl_ros:msg/MiiviiTime.msg"
+  ]
+}

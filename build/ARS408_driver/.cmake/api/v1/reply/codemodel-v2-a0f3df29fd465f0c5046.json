@@ -1,0 +1,88 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-.-2f6807783d3d9382921e.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.12"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3
+					]
+				}
+			],
+			"name" : "",
+			"projects" : 
+			[
+				{
+					"directoryIndexes" : 
+					[
+						0
+					],
+					"name" : "ARS408_driver",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 0,
+					"id" : "ARS408_CAN_core::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-ARS408_CAN_core-a92fe7cf5419f67bd32f.json",
+					"name" : "ARS408_CAN_core",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "ARS408_CAN_node::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-ARS408_CAN_node-db0ca0889f8506542904.json",
+					"name" : "ARS408_CAN_node",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "ARS408_driver_uninstall::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-ARS408_driver_uninstall-14e28622ef046d03e5dd.json",
+					"name" : "ARS408_driver_uninstall",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "uninstall::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-uninstall-b0d8afd747e32bc15cb5.json",
+					"name" : "uninstall",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "/home/nvidia/work/device_ws/build/ARS408_driver",
+		"source" : "/home/nvidia/work/device_ws/src/ARS408_driver"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 3
+	}
+}

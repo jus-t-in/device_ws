@@ -1,0 +1,242 @@
+[0.031s] Invoking command in '/home/nvidia/work/device_ws/build/rslidar_msg': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/nvidia/work/device_ws/install/sync_pkg:/opt/ros/humble /usr/bin/cmake /home/nvidia/work/device_ws/src/rslidar_msg -DCMAKE_INSTALL_PREFIX=/home/nvidia/work/device_ws/install/rslidar_msg
+[0.185s] -- The C compiler identification is GNU 11.4.0
+[0.283s] -- The CXX compiler identification is GNU 11.4.0
+[0.304s] -- Detecting C compiler ABI info
+[0.419s] -- Detecting C compiler ABI info - done
+[0.429s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.429s] -- Detecting C compile features
+[0.430s] -- Detecting C compile features - done
+[0.435s] -- Detecting CXX compiler ABI info
+[0.558s] -- Detecting CXX compiler ABI info - done
+[0.567s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.568s] -- Detecting CXX compile features
+[0.569s] -- Detecting CXX compile features - done
+[0.574s] -- Found ament_cmake: 1.3.12 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.866s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[1.031s] -- Found std_msgs: 4.9.0 (/opt/ros/humble/share/std_msgs/cmake)
+[1.100s] -- Found rosidl_generator_c: 3.1.7 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[1.107s] -- Found rosidl_adapter: 3.1.7 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[1.121s] -- Found rosidl_generator_cpp: 3.1.7 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[1.142s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[1.170s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[1.216s] -- Found rclcpp: 16.0.15 (/opt/ros/humble/share/rclcpp/cmake)
+[1.272s] -- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[1.276s] -- Found rmw_fastrtps_cpp: 6.2.8 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[1.396s] -- Found OpenSSL: /usr/lib/aarch64-linux-gnu/libcrypto.so (found version "3.0.2")  
+[1.443s] -- Found FastRTPS: /opt/ros/humble/include  
+[1.507s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[1.520s] -- Looking for pthread.h
+[1.655s] -- Looking for pthread.h - found
+[1.656s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[1.787s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
+[1.790s] -- Found Threads: TRUE  
+[1.884s] -- Found rosidl_default_generators: 1.2.0 (/opt/ros/humble/share/rosidl_default_generators/cmake)
+[2.376s] -- Found ament_cmake_ros: 0.10.0 (/opt/ros/humble/share/ament_cmake_ros/cmake)
+[3.007s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[3.275s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[3.317s] -- Found PythonInterp: /usr/bin/python3 (found suitable version "3.10.12", minimum required is "3.6") 
+[3.321s] -- Found python_cmake_module: 0.10.0 (/opt/ros/humble/share/python_cmake_module/cmake)
+[3.366s] -- Found PythonLibs: /usr/lib/aarch64-linux-gnu/libpython3.10.so (found suitable version "3.10.12", minimum required is "3.5") 
+[3.366s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[3.366s] -- Using PYTHON_INCLUDE_DIRS: /usr/include/python3.10
+[3.366s] -- Using PYTHON_LIBRARIES: /usr/lib/aarch64-linux-gnu/libpython3.10.so
+[3.407s] -- Found PythonExtra: .so  
+[3.501s] -- Found ament_lint_auto: 0.12.14 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[3.540s] -- Added test 'copyright' to check source files copyright and LICENSE
+[3.546s] -- Added test 'lint_cmake' to check CMake code style
+[3.548s] -- Added test 'xmllint' to check XML markup files
+[3.553s] -- Configuring done
+[3.609s] -- Generating done
+[3.627s] -- Build files have been written to: /home/nvidia/work/device_ws/build/rslidar_msg
+[3.654s] Invoked command in '/home/nvidia/work/device_ws/build/rslidar_msg' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/nvidia/work/device_ws/install/sync_pkg:/opt/ros/humble /usr/bin/cmake /home/nvidia/work/device_ws/src/rslidar_msg -DCMAKE_INSTALL_PREFIX=/home/nvidia/work/device_ws/install/rslidar_msg
+[3.657s] Invoking command in '/home/nvidia/work/device_ws/build/rslidar_msg': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/nvidia/work/device_ws/install/sync_pkg:/opt/ros/humble /usr/bin/cmake --build /home/nvidia/work/device_ws/build/rslidar_msg -- -j6 -l6
+[3.739s] [  3%] [34m[1mGenerating C++ code for ROS interfaces[0m
+[4.168s] [  3%] Built target rslidar_msg__cpp
+[4.210s] [  3%] Built target ament_cmake_python_copy_rslidar_msg
+[4.226s] [  6%] [34m[1mGenerating C++ introspection for ROS interfaces[0m
+[4.609s] [  9%] [32mBuilding CXX object CMakeFiles/rslidar_msg__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/rslidar_msg/msg/detail/rslidar_packet__type_support.cpp.o[0m
+[5.309s] [ 12%] [32m[1mLinking CXX shared library librslidar_msg__rosidl_typesupport_introspection_cpp.so[0m
+[5.424s] [ 12%] Built target rslidar_msg__rosidl_typesupport_introspection_cpp
+[5.810s] running egg_info
+[5.812s] creating rslidar_msg.egg-info
+[5.812s] writing rslidar_msg.egg-info/PKG-INFO
+[5.812s] writing dependency_links to rslidar_msg.egg-info/dependency_links.txt
+[5.812s] writing top-level names to rslidar_msg.egg-info/top_level.txt
+[5.813s] writing manifest file 'rslidar_msg.egg-info/SOURCES.txt'
+[5.817s] reading manifest file 'rslidar_msg.egg-info/SOURCES.txt'
+[5.817s] writing manifest file 'rslidar_msg.egg-info/SOURCES.txt'
+[5.877s] [ 12%] Built target ament_cmake_python_build_rslidar_msg_egg
+[5.892s] [ 16%] [34m[1mGenerating C++ type support for eProsima Fast-RTPS[0m
+[6.284s] [ 19%] [32mBuilding CXX object CMakeFiles/rslidar_msg__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/rslidar_msg/msg/detail/dds_fastrtps/rslidar_packet__type_support.cpp.o[0m
+[7.101s] [ 22%] [32m[1mLinking CXX shared library librslidar_msg__rosidl_typesupport_fastrtps_cpp.so[0m
+[7.221s] [ 22%] Built target rslidar_msg__rosidl_typesupport_fastrtps_cpp
+[7.238s] [ 25%] [34m[1mGenerating C++ type support dispatch for ROS interfaces[0m
+[7.620s] [ 29%] [32mBuilding CXX object CMakeFiles/rslidar_msg__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/rslidar_msg/msg/rslidar_packet__type_support.cpp.o[0m
+[8.097s] [ 32%] [32m[1mLinking CXX shared library librslidar_msg__rosidl_typesupport_cpp.so[0m
+[8.160s] [ 32%] Built target rslidar_msg__rosidl_typesupport_cpp
+[8.179s] [ 35%] [34m[1mGenerating C code for ROS interfaces[0m
+[8.631s] [ 38%] [32mBuilding C object CMakeFiles/rslidar_msg__rosidl_generator_c.dir/rosidl_generator_c/rslidar_msg/msg/detail/rslidar_packet__functions.c.o[0m
+[8.718s] [ 41%] [32m[1mLinking C shared library librslidar_msg__rosidl_generator_c.so[0m
+[8.772s] [ 41%] Built target rslidar_msg__rosidl_generator_c
+[8.787s] [ 45%] [34m[1mGenerating C type support for eProsima Fast-RTPS[0m
+[9.177s] [ 48%] [32mBuilding CXX object CMakeFiles/rslidar_msg__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/rslidar_msg/msg/detail/rslidar_packet__type_support_c.cpp.o[0m
+[9.743s] [ 51%] [32m[1mLinking CXX shared library librslidar_msg__rosidl_typesupport_fastrtps_c.so[0m
+[9.864s] [ 51%] Built target rslidar_msg__rosidl_typesupport_fastrtps_c
+[9.881s] [ 54%] [34m[1mGenerating C type support dispatch for ROS interfaces[0m
+[10.233s] [ 58%] [32mBuilding CXX object CMakeFiles/rslidar_msg__rosidl_typesupport_c.dir/rosidl_typesupport_c/rslidar_msg/msg/rslidar_packet__type_support.cpp.o[0m
+[10.284s] [ 61%] [32m[1mLinking CXX shared library librslidar_msg__rosidl_typesupport_c.so[0m
+[10.344s] [ 61%] Built target rslidar_msg__rosidl_typesupport_c
+[10.365s] [ 64%] [34m[1mGenerating C introspection for ROS interfaces[0m
+[10.777s] [ 67%] [32mBuilding C object CMakeFiles/rslidar_msg__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/rslidar_msg/msg/detail/rslidar_packet__type_support.c.o[0m
+[10.847s] [ 70%] [32m[1mLinking C shared library librslidar_msg__rosidl_typesupport_introspection_c.so[0m
+[10.894s] [ 70%] Built target rslidar_msg__rosidl_typesupport_introspection_c
+[10.925s] [ 70%] Built target rslidar_msg
+[10.957s] [ 74%] [34m[1mGenerating Python code for ROS interfaces[0m
+[11.476s] [ 74%] Built target rslidar_msg__py
+[11.508s] [ 77%] [32mBuilding C object CMakeFiles/rslidar_msg__rosidl_generator_py.dir/rosidl_generator_py/rslidar_msg/msg/_rslidar_packet_s.c.o[0m
+[11.707s] [ 80%] [32m[1mLinking C shared library rosidl_generator_py/rslidar_msg/librslidar_msg__rosidl_generator_py.so[0m
+[11.774s] [ 80%] Built target rslidar_msg__rosidl_generator_py
+[11.812s] [ 83%] [32mBuilding C object CMakeFiles/rslidar_msg__rosidl_typesupport_fastrtps_c__pyext.dir/rosidl_generator_py/rslidar_msg/_rslidar_msg_s.ep.rosidl_typesupport_fastrtps_c.c.o[0m
+[11.987s] [ 87%] [32m[1mLinking C shared library rosidl_generator_py/rslidar_msg/rslidar_msg_s__rosidl_typesupport_fastrtps_c.cpython-310-aarch64-linux-gnu.so[0m
+[12.047s] [ 87%] Built target rslidar_msg__rosidl_typesupport_fastrtps_c__pyext
+[12.086s] [ 90%] [32mBuilding C object CMakeFiles/rslidar_msg__rosidl_typesupport_c__pyext.dir/rosidl_generator_py/rslidar_msg/_rslidar_msg_s.ep.rosidl_typesupport_c.c.o[0m
+[12.265s] [ 93%] [32m[1mLinking C shared library rosidl_generator_py/rslidar_msg/rslidar_msg_s__rosidl_typesupport_c.cpython-310-aarch64-linux-gnu.so[0m
+[12.331s] [ 93%] Built target rslidar_msg__rosidl_typesupport_c__pyext
+[12.364s] [ 96%] [32mBuilding C object CMakeFiles/rslidar_msg__rosidl_typesupport_introspection_c__pyext.dir/rosidl_generator_py/rslidar_msg/_rslidar_msg_s.ep.rosidl_typesupport_introspection_c.c.o[0m
+[12.529s] [100%] [32m[1mLinking C shared library rosidl_generator_py/rslidar_msg/rslidar_msg_s__rosidl_typesupport_introspection_c.cpython-310-aarch64-linux-gnu.so[0m
+[12.587s] [100%] Built target rslidar_msg__rosidl_typesupport_introspection_c__pyext
+[12.606s] Invoked command in '/home/nvidia/work/device_ws/build/rslidar_msg' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/nvidia/work/device_ws/install/sync_pkg:/opt/ros/humble /usr/bin/cmake --build /home/nvidia/work/device_ws/build/rslidar_msg -- -j6 -l6
+[12.622s] Invoking command in '/home/nvidia/work/device_ws/build/rslidar_msg': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/nvidia/work/device_ws/install/sync_pkg:/opt/ros/humble /usr/bin/cmake --install /home/nvidia/work/device_ws/build/rslidar_msg
+[12.635s] -- Install configuration: ""
+[12.636s] -- Installing: /home/nvidia/work/device_ws/install/rslidar_msg/share/ament_index/resource_index/rosidl_interfaces/rslidar_msg
+[12.636s] -- Installing: /home/nvidia/work/device_ws/install/rslidar_msg/include/rslidar_msg/rslidar_msg
+[12.636s] -- Installing: /home/nvidia/work/device_ws/install/rslidar_msg/include/rslidar_msg/rslidar_msg/msg
+[12.636s] -- Installing: /home/nvidia/work/device_ws/install/rslidar_msg/include/rslidar_msg/rslidar_msg/msg/rslidar_packet.h
+[12.637s] -- Installing: /home/nvidia/work/device_ws/install/rslidar_msg/include/rslidar_msg/rslidar_msg/msg/detail
+[12.637s] -- Installing: /home/nvidia/work/device_ws/install/rslidar_msg/include/rslidar_msg/rslidar_msg/msg/detail/rslidar_packet__functions.c
+[12.637s] -- Installing: /home/nvidia/work/device_ws/install/rslidar_msg/include/rslidar_msg/rslidar_msg/msg/detail/rslidar_packet__functions.h
+[12.637s] -- Installing: /home/nvidia/work/device_ws/install/rslidar_msg/include/rslidar_msg/rslidar_msg/msg/detail/rslidar_packet__type_support.h
+[12.637s] -- Installing: /home/nvidia/work/device_ws/install/rslidar_msg/include/rslidar_msg/rslidar_msg/msg/detail/rslidar_packet__struct.h
+[12.637s] -- Installing: /home/nvidia/work/device_ws/install/rslidar_msg/include/rslidar_msg/rslidar_msg/msg/rosidl_generator_c__visibility_control.h
+[12.638s] -- Installing: /home/nvidia/work/device_ws/install/rslidar_msg/share/rslidar_msg/environment/library_path.sh
+[12.638s] -- Installing: /home/nvidia/work/device_ws/install/rslidar_msg/share/rslidar_msg/environment/library_path.dsv
+[12.639s] -- Installing: /home/nvidia/work/device_ws/install/rslidar_msg/lib/librslidar_msg__rosidl_generator_c.so
+[12.639s] -- Set runtime path of "/home/nvidia/work/device_ws/install/rslidar_msg/lib/librslidar_msg__rosidl_generator_c.so" to ""
+[12.640s] -- Up-to-date: /home/nvidia/work/device_ws/install/rslidar_msg/include/rslidar_msg/rslidar_msg
+[12.640s] -- Up-to-date: /home/nvidia/work/device_ws/install/rslidar_msg/include/rslidar_msg/rslidar_msg/msg
+[12.640s] -- Installing: /home/nvidia/work/device_ws/install/rslidar_msg/include/rslidar_msg/rslidar_msg/msg/rosidl_typesupport_fastrtps_c__visibility_control.h
+[12.641s] -- Up-to-date: /home/nvidia/work/device_ws/install/rslidar_msg/include/rslidar_msg/rslidar_msg/msg/detail
+[12.641s] -- Installing: /home/nvidia/work/device_ws/install/rslidar_msg/include/rslidar_msg/rslidar_msg/msg/detail/rslidar_packet__rosidl_typesupport_fastrtps_c.h
+[12.641s] -- Installing: /home/nvidia/work/device_ws/install/rslidar_msg/lib/librslidar_msg__rosidl_typesupport_fastrtps_c.so
+[12.641s] -- Set runtime path of "/home/nvidia/work/device_ws/install/rslidar_msg/lib/librslidar_msg__rosidl_typesupport_fastrtps_c.so" to ""
+[12.641s] -- Up-to-date: /home/nvidia/work/device_ws/install/rslidar_msg/include/rslidar_msg/rslidar_msg
+[12.641s] -- Up-to-date: /home/nvidia/work/device_ws/install/rslidar_msg/include/rslidar_msg/rslidar_msg/msg
+[12.642s] -- Installing: /home/nvidia/work/device_ws/install/rslidar_msg/include/rslidar_msg/rslidar_msg/msg/rslidar_packet.hpp
+[12.642s] -- Installing: /home/nvidia/work/device_ws/install/rslidar_msg/include/rslidar_msg/rslidar_msg/msg/rosidl_generator_cpp__visibility_control.hpp
+[12.642s] -- Up-to-date: /home/nvidia/work/device_ws/install/rslidar_msg/include/rslidar_msg/rslidar_msg/msg/detail
+[12.642s] -- Installing: /home/nvidia/work/device_ws/install/rslidar_msg/include/rslidar_msg/rslidar_msg/msg/detail/rslidar_packet__type_support.hpp
+[12.642s] -- Installing: /home/nvidia/work/device_ws/install/rslidar_msg/include/rslidar_msg/rslidar_msg/msg/detail/rslidar_packet__builder.hpp
+[12.647s] -- Installing: /home/nvidia/work/device_ws/install/rslidar_msg/include/rslidar_msg/rslidar_msg/msg/detail/rslidar_packet__traits.hpp
+[12.647s] -- Installing: /home/nvidia/work/device_ws/install/rslidar_msg/include/rslidar_msg/rslidar_msg/msg/detail/rslidar_packet__struct.hpp
+[12.647s] -- Up-to-date: /home/nvidia/work/device_ws/install/rslidar_msg/include/rslidar_msg/rslidar_msg
+[12.649s] -- Up-to-date: /home/nvidia/work/device_ws/install/rslidar_msg/include/rslidar_msg/rslidar_msg/msg
+[12.649s] -- Up-to-date: /home/nvidia/work/device_ws/install/rslidar_msg/include/rslidar_msg/rslidar_msg/msg/detail
+[12.649s] -- Installing: /home/nvidia/work/device_ws/install/rslidar_msg/include/rslidar_msg/rslidar_msg/msg/detail/dds_fastrtps
+[12.650s] -- Installing: /home/nvidia/work/device_ws/install/rslidar_msg/include/rslidar_msg/rslidar_msg/msg/detail/rslidar_packet__rosidl_typesupport_fastrtps_cpp.hpp
+[12.650s] -- Installing: /home/nvidia/work/device_ws/install/rslidar_msg/include/rslidar_msg/rslidar_msg/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h
+[12.650s] -- Installing: /home/nvidia/work/device_ws/install/rslidar_msg/lib/librslidar_msg__rosidl_typesupport_fastrtps_cpp.so
+[12.650s] -- Set runtime path of "/home/nvidia/work/device_ws/install/rslidar_msg/lib/librslidar_msg__rosidl_typesupport_fastrtps_cpp.so" to ""
+[12.650s] -- Up-to-date: /home/nvidia/work/device_ws/install/rslidar_msg/include/rslidar_msg/rslidar_msg
+[12.650s] -- Up-to-date: /home/nvidia/work/device_ws/install/rslidar_msg/include/rslidar_msg/rslidar_msg/msg
+[12.650s] -- Up-to-date: /home/nvidia/work/device_ws/install/rslidar_msg/include/rslidar_msg/rslidar_msg/msg/detail
+[12.650s] -- Installing: /home/nvidia/work/device_ws/install/rslidar_msg/include/rslidar_msg/rslidar_msg/msg/detail/rslidar_packet__type_support.c
+[12.650s] -- Installing: /home/nvidia/work/device_ws/install/rslidar_msg/include/rslidar_msg/rslidar_msg/msg/detail/rslidar_packet__rosidl_typesupport_introspection_c.h
+[12.651s] -- Installing: /home/nvidia/work/device_ws/install/rslidar_msg/include/rslidar_msg/rslidar_msg/msg/rosidl_typesupport_introspection_c__visibility_control.h
+[12.651s] -- Installing: /home/nvidia/work/device_ws/install/rslidar_msg/lib/librslidar_msg__rosidl_typesupport_introspection_c.so
+[12.651s] -- Set runtime path of "/home/nvidia/work/device_ws/install/rslidar_msg/lib/librslidar_msg__rosidl_typesupport_introspection_c.so" to ""
+[12.651s] -- Installing: /home/nvidia/work/device_ws/install/rslidar_msg/lib/librslidar_msg__rosidl_typesupport_c.so
+[12.651s] -- Set runtime path of "/home/nvidia/work/device_ws/install/rslidar_msg/lib/librslidar_msg__rosidl_typesupport_c.so" to ""
+[12.651s] -- Up-to-date: /home/nvidia/work/device_ws/install/rslidar_msg/include/rslidar_msg/rslidar_msg
+[12.651s] -- Up-to-date: /home/nvidia/work/device_ws/install/rslidar_msg/include/rslidar_msg/rslidar_msg/msg
+[12.651s] -- Up-to-date: /home/nvidia/work/device_ws/install/rslidar_msg/include/rslidar_msg/rslidar_msg/msg/detail
+[12.651s] -- Installing: /home/nvidia/work/device_ws/install/rslidar_msg/include/rslidar_msg/rslidar_msg/msg/detail/rslidar_packet__type_support.cpp
+[12.652s] -- Installing: /home/nvidia/work/device_ws/install/rslidar_msg/include/rslidar_msg/rslidar_msg/msg/detail/rslidar_packet__rosidl_typesupport_introspection_cpp.hpp
+[12.652s] -- Installing: /home/nvidia/work/device_ws/install/rslidar_msg/lib/librslidar_msg__rosidl_typesupport_introspection_cpp.so
+[12.652s] -- Set runtime path of "/home/nvidia/work/device_ws/install/rslidar_msg/lib/librslidar_msg__rosidl_typesupport_introspection_cpp.so" to ""
+[12.652s] -- Installing: /home/nvidia/work/device_ws/install/rslidar_msg/lib/librslidar_msg__rosidl_typesupport_cpp.so
+[12.652s] -- Set runtime path of "/home/nvidia/work/device_ws/install/rslidar_msg/lib/librslidar_msg__rosidl_typesupport_cpp.so" to ""
+[12.652s] -- Installing: /home/nvidia/work/device_ws/install/rslidar_msg/share/rslidar_msg/environment/pythonpath.sh
+[12.652s] -- Installing: /home/nvidia/work/device_ws/install/rslidar_msg/share/rslidar_msg/environment/pythonpath.dsv
+[12.652s] -- Installing: /home/nvidia/work/device_ws/install/rslidar_msg/local/lib/python3.10/dist-packages/rslidar_msg-0.0.0-py3.10.egg-info
+[12.652s] -- Installing: /home/nvidia/work/device_ws/install/rslidar_msg/local/lib/python3.10/dist-packages/rslidar_msg-0.0.0-py3.10.egg-info/top_level.txt
+[12.652s] -- Installing: /home/nvidia/work/device_ws/install/rslidar_msg/local/lib/python3.10/dist-packages/rslidar_msg-0.0.0-py3.10.egg-info/PKG-INFO
+[12.652s] -- Installing: /home/nvidia/work/device_ws/install/rslidar_msg/local/lib/python3.10/dist-packages/rslidar_msg-0.0.0-py3.10.egg-info/dependency_links.txt
+[12.653s] -- Installing: /home/nvidia/work/device_ws/install/rslidar_msg/local/lib/python3.10/dist-packages/rslidar_msg-0.0.0-py3.10.egg-info/SOURCES.txt
+[12.653s] -- Installing: /home/nvidia/work/device_ws/install/rslidar_msg/local/lib/python3.10/dist-packages/rslidar_msg
+[12.653s] -- Installing: /home/nvidia/work/device_ws/install/rslidar_msg/local/lib/python3.10/dist-packages/rslidar_msg/librslidar_msg__rosidl_generator_py.so
+[12.653s] -- Installing: /home/nvidia/work/device_ws/install/rslidar_msg/local/lib/python3.10/dist-packages/rslidar_msg/_rslidar_msg_s.ep.rosidl_typesupport_introspection_c.c
+[12.653s] -- Installing: /home/nvidia/work/device_ws/install/rslidar_msg/local/lib/python3.10/dist-packages/rslidar_msg/msg
+[12.653s] -- Installing: /home/nvidia/work/device_ws/install/rslidar_msg/local/lib/python3.10/dist-packages/rslidar_msg/msg/_rslidar_packet_s.c
+[12.653s] -- Installing: /home/nvidia/work/device_ws/install/rslidar_msg/local/lib/python3.10/dist-packages/rslidar_msg/msg/__init__.py
+[12.653s] -- Installing: /home/nvidia/work/device_ws/install/rslidar_msg/local/lib/python3.10/dist-packages/rslidar_msg/msg/_rslidar_packet.py
+[12.653s] -- Installing: /home/nvidia/work/device_ws/install/rslidar_msg/local/lib/python3.10/dist-packages/rslidar_msg/__init__.py
+[12.653s] -- Installing: /home/nvidia/work/device_ws/install/rslidar_msg/local/lib/python3.10/dist-packages/rslidar_msg/_rslidar_msg_s.ep.rosidl_typesupport_fastrtps_c.c
+[12.654s] -- Installing: /home/nvidia/work/device_ws/install/rslidar_msg/local/lib/python3.10/dist-packages/rslidar_msg/rslidar_msg_s__rosidl_typesupport_fastrtps_c.cpython-310-aarch64-linux-gnu.so
+[12.654s] -- Installing: /home/nvidia/work/device_ws/install/rslidar_msg/local/lib/python3.10/dist-packages/rslidar_msg/rslidar_msg_s__rosidl_typesupport_c.cpython-310-aarch64-linux-gnu.so
+[12.654s] -- Installing: /home/nvidia/work/device_ws/install/rslidar_msg/local/lib/python3.10/dist-packages/rslidar_msg/_rslidar_msg_s.ep.rosidl_typesupport_c.c
+[12.654s] -- Installing: /home/nvidia/work/device_ws/install/rslidar_msg/local/lib/python3.10/dist-packages/rslidar_msg/rslidar_msg_s__rosidl_typesupport_introspection_c.cpython-310-aarch64-linux-gnu.so
+[12.705s] Listing '/home/nvidia/work/device_ws/install/rslidar_msg/local/lib/python3.10/dist-packages/rslidar_msg'...
+[12.705s] Compiling '/home/nvidia/work/device_ws/install/rslidar_msg/local/lib/python3.10/dist-packages/rslidar_msg/__init__.py'...
+[12.705s] Listing '/home/nvidia/work/device_ws/install/rslidar_msg/local/lib/python3.10/dist-packages/rslidar_msg/msg'...
+[12.705s] Compiling '/home/nvidia/work/device_ws/install/rslidar_msg/local/lib/python3.10/dist-packages/rslidar_msg/msg/__init__.py'...
+[12.706s] Compiling '/home/nvidia/work/device_ws/install/rslidar_msg/local/lib/python3.10/dist-packages/rslidar_msg/msg/_rslidar_packet.py'...
+[12.716s] -- Installing: /home/nvidia/work/device_ws/install/rslidar_msg/local/lib/python3.10/dist-packages/rslidar_msg/rslidar_msg_s__rosidl_typesupport_fastrtps_c.cpython-310-aarch64-linux-gnu.so
+[12.716s] -- Set runtime path of "/home/nvidia/work/device_ws/install/rslidar_msg/local/lib/python3.10/dist-packages/rslidar_msg/rslidar_msg_s__rosidl_typesupport_fastrtps_c.cpython-310-aarch64-linux-gnu.so" to ""
+[12.716s] -- Installing: /home/nvidia/work/device_ws/install/rslidar_msg/local/lib/python3.10/dist-packages/rslidar_msg/rslidar_msg_s__rosidl_typesupport_introspection_c.cpython-310-aarch64-linux-gnu.so
+[12.717s] -- Set runtime path of "/home/nvidia/work/device_ws/install/rslidar_msg/local/lib/python3.10/dist-packages/rslidar_msg/rslidar_msg_s__rosidl_typesupport_introspection_c.cpython-310-aarch64-linux-gnu.so" to ""
+[12.717s] -- Installing: /home/nvidia/work/device_ws/install/rslidar_msg/local/lib/python3.10/dist-packages/rslidar_msg/rslidar_msg_s__rosidl_typesupport_c.cpython-310-aarch64-linux-gnu.so
+[12.717s] -- Set runtime path of "/home/nvidia/work/device_ws/install/rslidar_msg/local/lib/python3.10/dist-packages/rslidar_msg/rslidar_msg_s__rosidl_typesupport_c.cpython-310-aarch64-linux-gnu.so" to ""
+[12.717s] -- Installing: /home/nvidia/work/device_ws/install/rslidar_msg/lib/librslidar_msg__rosidl_generator_py.so
+[12.718s] -- Set runtime path of "/home/nvidia/work/device_ws/install/rslidar_msg/lib/librslidar_msg__rosidl_generator_py.so" to ""
+[12.718s] -- Installing: /home/nvidia/work/device_ws/install/rslidar_msg/share/rslidar_msg/msg/RslidarPacket.idl
+[12.718s] -- Installing: /home/nvidia/work/device_ws/install/rslidar_msg/share/rslidar_msg/msg/RslidarPacket.msg
+[12.719s] -- Installing: /home/nvidia/work/device_ws/install/rslidar_msg/share/ament_index/resource_index/package_run_dependencies/rslidar_msg
+[12.719s] -- Installing: /home/nvidia/work/device_ws/install/rslidar_msg/share/ament_index/resource_index/parent_prefix_path/rslidar_msg
+[12.719s] -- Installing: /home/nvidia/work/device_ws/install/rslidar_msg/share/rslidar_msg/environment/ament_prefix_path.sh
+[12.719s] -- Installing: /home/nvidia/work/device_ws/install/rslidar_msg/share/rslidar_msg/environment/ament_prefix_path.dsv
+[12.719s] -- Installing: /home/nvidia/work/device_ws/install/rslidar_msg/share/rslidar_msg/environment/path.sh
+[12.720s] -- Installing: /home/nvidia/work/device_ws/install/rslidar_msg/share/rslidar_msg/environment/path.dsv
+[12.720s] -- Installing: /home/nvidia/work/device_ws/install/rslidar_msg/share/rslidar_msg/local_setup.bash
+[12.720s] -- Installing: /home/nvidia/work/device_ws/install/rslidar_msg/share/rslidar_msg/local_setup.sh
+[12.720s] -- Installing: /home/nvidia/work/device_ws/install/rslidar_msg/share/rslidar_msg/local_setup.zsh
+[12.721s] -- Installing: /home/nvidia/work/device_ws/install/rslidar_msg/share/rslidar_msg/local_setup.dsv
+[12.721s] -- Installing: /home/nvidia/work/device_ws/install/rslidar_msg/share/rslidar_msg/package.dsv
+[12.721s] -- Installing: /home/nvidia/work/device_ws/install/rslidar_msg/share/ament_index/resource_index/packages/rslidar_msg
+[12.721s] -- Installing: /home/nvidia/work/device_ws/install/rslidar_msg/share/rslidar_msg/cmake/export_rslidar_msg__rosidl_generator_cExport.cmake
+[12.722s] -- Installing: /home/nvidia/work/device_ws/install/rslidar_msg/share/rslidar_msg/cmake/export_rslidar_msg__rosidl_generator_cExport-noconfig.cmake
+[12.722s] -- Installing: /home/nvidia/work/device_ws/install/rslidar_msg/share/rslidar_msg/cmake/export_rslidar_msg__rosidl_typesupport_fastrtps_cExport.cmake
+[12.722s] -- Installing: /home/nvidia/work/device_ws/install/rslidar_msg/share/rslidar_msg/cmake/export_rslidar_msg__rosidl_typesupport_fastrtps_cExport-noconfig.cmake
+[12.722s] -- Installing: /home/nvidia/work/device_ws/install/rslidar_msg/share/rslidar_msg/cmake/export_rslidar_msg__rosidl_generator_cppExport.cmake
+[12.722s] -- Installing: /home/nvidia/work/device_ws/install/rslidar_msg/share/rslidar_msg/cmake/export_rslidar_msg__rosidl_typesupport_fastrtps_cppExport.cmake
+[12.723s] -- Installing: /home/nvidia/work/device_ws/install/rslidar_msg/share/rslidar_msg/cmake/export_rslidar_msg__rosidl_typesupport_fastrtps_cppExport-noconfig.cmake
+[12.723s] -- Installing: /home/nvidia/work/device_ws/install/rslidar_msg/share/rslidar_msg/cmake/rslidar_msg__rosidl_typesupport_introspection_cExport.cmake
+[12.723s] -- Installing: /home/nvidia/work/device_ws/install/rslidar_msg/share/rslidar_msg/cmake/rslidar_msg__rosidl_typesupport_introspection_cExport-noconfig.cmake
+[12.724s] -- Installing: /home/nvidia/work/device_ws/install/rslidar_msg/share/rslidar_msg/cmake/rslidar_msg__rosidl_typesupport_cExport.cmake
+[12.724s] -- Installing: /home/nvidia/work/device_ws/install/rslidar_msg/share/rslidar_msg/cmake/rslidar_msg__rosidl_typesupport_cExport-noconfig.cmake
+[12.724s] -- Installing: /home/nvidia/work/device_ws/install/rslidar_msg/share/rslidar_msg/cmake/rslidar_msg__rosidl_typesupport_introspection_cppExport.cmake
+[12.724s] -- Installing: /home/nvidia/work/device_ws/install/rslidar_msg/share/rslidar_msg/cmake/rslidar_msg__rosidl_typesupport_introspection_cppExport-noconfig.cmake
+[12.724s] -- Installing: /home/nvidia/work/device_ws/install/rslidar_msg/share/rslidar_msg/cmake/rslidar_msg__rosidl_typesupport_cppExport.cmake
+[12.725s] -- Installing: /home/nvidia/work/device_ws/install/rslidar_msg/share/rslidar_msg/cmake/rslidar_msg__rosidl_typesupport_cppExport-noconfig.cmake
+[12.725s] -- Installing: /home/nvidia/work/device_ws/install/rslidar_msg/share/rslidar_msg/cmake/export_rslidar_msg__rosidl_generator_pyExport.cmake
+[12.725s] -- Installing: /home/nvidia/work/device_ws/install/rslidar_msg/share/rslidar_msg/cmake/export_rslidar_msg__rosidl_generator_pyExport-noconfig.cmake
+[12.725s] -- Installing: /home/nvidia/work/device_ws/install/rslidar_msg/share/rslidar_msg/cmake/rosidl_cmake-extras.cmake
+[12.725s] -- Installing: /home/nvidia/work/device_ws/install/rslidar_msg/share/rslidar_msg/cmake/ament_cmake_export_dependencies-extras.cmake
+[12.726s] -- Installing: /home/nvidia/work/device_ws/install/rslidar_msg/share/rslidar_msg/cmake/ament_cmake_export_include_directories-extras.cmake
+[12.726s] -- Installing: /home/nvidia/work/device_ws/install/rslidar_msg/share/rslidar_msg/cmake/ament_cmake_export_libraries-extras.cmake
+[12.726s] -- Installing: /home/nvidia/work/device_ws/install/rslidar_msg/share/rslidar_msg/cmake/ament_cmake_export_targets-extras.cmake
+[12.726s] -- Installing: /home/nvidia/work/device_ws/install/rslidar_msg/share/rslidar_msg/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake
+[12.726s] -- Installing: /home/nvidia/work/device_ws/install/rslidar_msg/share/rslidar_msg/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake
+[12.727s] -- Installing: /home/nvidia/work/device_ws/install/rslidar_msg/share/rslidar_msg/cmake/rslidar_msgConfig.cmake
+[12.727s] -- Installing: /home/nvidia/work/device_ws/install/rslidar_msg/share/rslidar_msg/cmake/rslidar_msgConfig-version.cmake
+[12.727s] -- Installing: /home/nvidia/work/device_ws/install/rslidar_msg/share/rslidar_msg/package.xml
+[12.732s] Invoked command in '/home/nvidia/work/device_ws/build/rslidar_msg' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/nvidia/work/device_ws/install/sync_pkg:/opt/ros/humble /usr/bin/cmake --install /home/nvidia/work/device_ws/build/rslidar_msg

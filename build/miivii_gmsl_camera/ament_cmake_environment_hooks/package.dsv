@@ -1,0 +1,4 @@
+source;share/miivii_gmsl_camera/local_setup.bash
+source;share/miivii_gmsl_camera/local_setup.dsv
+source;share/miivii_gmsl_camera/local_setup.sh
+source;share/miivii_gmsl_camera/local_setup.zsh

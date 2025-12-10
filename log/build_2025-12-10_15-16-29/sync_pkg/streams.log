@@ -1,0 +1,44 @@
+[1.110s] Invoking command in '/home/nvidia/work/device_ws/src/sync_pkg': PYTHONPATH=/home/nvidia/work/device_ws/build/sync_pkg/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/nvidia/work/device_ws/install/sync_pkg/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/sync_pkg build --build-base /home/nvidia/work/device_ws/build/sync_pkg/build install --record /home/nvidia/work/device_ws/build/sync_pkg/install.log --single-version-externally-managed install_data
+[1.490s] running egg_info
+[1.491s] creating ../../build/sync_pkg/sync_pkg.egg-info
+[1.491s] writing ../../build/sync_pkg/sync_pkg.egg-info/PKG-INFO
+[1.492s] writing dependency_links to ../../build/sync_pkg/sync_pkg.egg-info/dependency_links.txt
+[1.492s] writing entry points to ../../build/sync_pkg/sync_pkg.egg-info/entry_points.txt
+[1.492s] writing requirements to ../../build/sync_pkg/sync_pkg.egg-info/requires.txt
+[1.492s] writing top-level names to ../../build/sync_pkg/sync_pkg.egg-info/top_level.txt
+[1.493s] writing manifest file '../../build/sync_pkg/sync_pkg.egg-info/SOURCES.txt'
+[1.496s] reading manifest file '../../build/sync_pkg/sync_pkg.egg-info/SOURCES.txt'
+[1.497s] writing manifest file '../../build/sync_pkg/sync_pkg.egg-info/SOURCES.txt'
+[1.497s] running build
+[1.497s] running build_py
+[1.497s] creating /home/nvidia/work/device_ws/build/sync_pkg/build
+[1.497s] creating /home/nvidia/work/device_ws/build/sync_pkg/build/lib
+[1.498s] creating /home/nvidia/work/device_ws/build/sync_pkg/build/lib/sync_pkg
+[1.498s] copying sync_pkg/multi_sync_pub.py -> /home/nvidia/work/device_ws/build/sync_pkg/build/lib/sync_pkg
+[1.498s] copying sync_pkg/multi_sync_rename.py -> /home/nvidia/work/device_ws/build/sync_pkg/build/lib/sync_pkg
+[1.498s] copying sync_pkg/__init__.py -> /home/nvidia/work/device_ws/build/sync_pkg/build/lib/sync_pkg
+[1.498s] copying sync_pkg/multi_sync_rename copy.py -> /home/nvidia/work/device_ws/build/sync_pkg/build/lib/sync_pkg
+[1.498s] running install
+[1.499s] running install_lib
+[1.500s] creating /home/nvidia/work/device_ws/install/sync_pkg/lib/python3.10/site-packages/sync_pkg
+[1.500s] copying /home/nvidia/work/device_ws/build/sync_pkg/build/lib/sync_pkg/multi_sync_pub.py -> /home/nvidia/work/device_ws/install/sync_pkg/lib/python3.10/site-packages/sync_pkg
+[1.501s] copying /home/nvidia/work/device_ws/build/sync_pkg/build/lib/sync_pkg/multi_sync_rename.py -> /home/nvidia/work/device_ws/install/sync_pkg/lib/python3.10/site-packages/sync_pkg
+[1.501s] copying /home/nvidia/work/device_ws/build/sync_pkg/build/lib/sync_pkg/__init__.py -> /home/nvidia/work/device_ws/install/sync_pkg/lib/python3.10/site-packages/sync_pkg
+[1.501s] copying /home/nvidia/work/device_ws/build/sync_pkg/build/lib/sync_pkg/multi_sync_rename copy.py -> /home/nvidia/work/device_ws/install/sync_pkg/lib/python3.10/site-packages/sync_pkg
+[1.502s] byte-compiling /home/nvidia/work/device_ws/install/sync_pkg/lib/python3.10/site-packages/sync_pkg/multi_sync_pub.py to multi_sync_pub.cpython-310.pyc
+[1.503s] byte-compiling /home/nvidia/work/device_ws/install/sync_pkg/lib/python3.10/site-packages/sync_pkg/multi_sync_rename.py to multi_sync_rename.cpython-310.pyc
+[1.505s] byte-compiling /home/nvidia/work/device_ws/install/sync_pkg/lib/python3.10/site-packages/sync_pkg/__init__.py to __init__.cpython-310.pyc
+[1.505s] byte-compiling /home/nvidia/work/device_ws/install/sync_pkg/lib/python3.10/site-packages/sync_pkg/multi_sync_rename copy.py to multi_sync_rename copy.cpython-310.pyc
+[1.506s] running install_data
+[1.506s] creating /home/nvidia/work/device_ws/install/sync_pkg/share/ament_index
+[1.506s] creating /home/nvidia/work/device_ws/install/sync_pkg/share/ament_index/resource_index
+[1.506s] creating /home/nvidia/work/device_ws/install/sync_pkg/share/ament_index/resource_index/packages
+[1.506s] copying resource/sync_pkg -> /home/nvidia/work/device_ws/install/sync_pkg/share/ament_index/resource_index/packages
+[1.507s] copying package.xml -> /home/nvidia/work/device_ws/install/sync_pkg/share/sync_pkg
+[1.507s] running install_egg_info
+[1.510s] Copying ../../build/sync_pkg/sync_pkg.egg-info to /home/nvidia/work/device_ws/install/sync_pkg/lib/python3.10/site-packages/sync_pkg-0.0.1-py3.10.egg-info
+[1.511s] running install_scripts
+[1.549s] Installing multi_sync_pub script to /home/nvidia/work/device_ws/install/sync_pkg/lib/sync_pkg
+[1.549s] Installing multi_sync_rename script to /home/nvidia/work/device_ws/install/sync_pkg/lib/sync_pkg
+[1.549s] writing list of installed files to '/home/nvidia/work/device_ws/build/sync_pkg/install.log'
+[1.612s] Invoked command in '/home/nvidia/work/device_ws/src/sync_pkg' returned '0': PYTHONPATH=/home/nvidia/work/device_ws/build/sync_pkg/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/nvidia/work/device_ws/install/sync_pkg/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/sync_pkg build --build-base /home/nvidia/work/device_ws/build/sync_pkg/build install --record /home/nvidia/work/device_ws/build/sync_pkg/install.log --single-version-externally-managed install_data

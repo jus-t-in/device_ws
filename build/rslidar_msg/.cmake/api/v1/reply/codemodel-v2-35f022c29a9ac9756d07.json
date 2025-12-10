@@ -1,0 +1,233 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"childIndexes" : 
+					[
+						1
+					],
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-.-289584e2b7e7bebca3c1.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.12"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						5,
+						6,
+						7,
+						8,
+						9,
+						10,
+						11,
+						12,
+						13,
+						14,
+						15,
+						16,
+						17
+					]
+				},
+				{
+					"build" : "rslidar_msg__py",
+					"jsonFile" : "directory-rslidar_msg__py-e246f9cc6e7f1198ca49.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.12"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 0,
+					"source" : "/home/nvidia/work/device_ws/build/rslidar_msg/rslidar_msg__py",
+					"targetIndexes" : 
+					[
+						4
+					]
+				}
+			],
+			"name" : "",
+			"projects" : 
+			[
+				{
+					"directoryIndexes" : 
+					[
+						0,
+						1
+					],
+					"name" : "rslidar_msg",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						4,
+						5,
+						6,
+						7,
+						8,
+						9,
+						10,
+						11,
+						12,
+						13,
+						14,
+						15,
+						16,
+						17
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 0,
+					"id" : "ament_cmake_python_build_rslidar_msg_egg::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-ament_cmake_python_build_rslidar_msg_egg-d81a955745cb30054634.json",
+					"name" : "ament_cmake_python_build_rslidar_msg_egg",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "ament_cmake_python_copy_rslidar_msg::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-ament_cmake_python_copy_rslidar_msg-882d4aa7b14a5e3fa46d.json",
+					"name" : "ament_cmake_python_copy_rslidar_msg",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "rslidar_msg::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-rslidar_msg-30361987c9766dd75e16.json",
+					"name" : "rslidar_msg",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "rslidar_msg__cpp::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-rslidar_msg__cpp-fd019e18284c5c7c72ec.json",
+					"name" : "rslidar_msg__cpp",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 1,
+					"id" : "rslidar_msg__py::@c80b5731effdf274c015",
+					"jsonFile" : "target-rslidar_msg__py-78db9ace13f23d96c5ee.json",
+					"name" : "rslidar_msg__py",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "rslidar_msg__rosidl_generator_c::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-rslidar_msg__rosidl_generator_c-cc15ace953cd4ca6ef10.json",
+					"name" : "rslidar_msg__rosidl_generator_c",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "rslidar_msg__rosidl_generator_py::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-rslidar_msg__rosidl_generator_py-e6bbcbb1c2f5bd4a3977.json",
+					"name" : "rslidar_msg__rosidl_generator_py",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "rslidar_msg__rosidl_typesupport_c::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-rslidar_msg__rosidl_typesupport_c-7da0f117e5452392dc7c.json",
+					"name" : "rslidar_msg__rosidl_typesupport_c",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "rslidar_msg__rosidl_typesupport_c__pyext::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-rslidar_msg__rosidl_typesupport_c__pyext-1c58f65ee879210b7943.json",
+					"name" : "rslidar_msg__rosidl_typesupport_c__pyext",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "rslidar_msg__rosidl_typesupport_cpp::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-rslidar_msg__rosidl_typesupport_cpp-f040e9e4bf321963b83e.json",
+					"name" : "rslidar_msg__rosidl_typesupport_cpp",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "rslidar_msg__rosidl_typesupport_fastrtps_c::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-rslidar_msg__rosidl_typesupport_fastrtps_c-b705daaedcf9600e84ab.json",
+					"name" : "rslidar_msg__rosidl_typesupport_fastrtps_c",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "rslidar_msg__rosidl_typesupport_fastrtps_c__pyext::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-rslidar_msg__rosidl_typesupport_fastrtps_c__pyext-80083a0102c6de1b9b54.json",
+					"name" : "rslidar_msg__rosidl_typesupport_fastrtps_c__pyext",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "rslidar_msg__rosidl_typesupport_fastrtps_cpp::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-rslidar_msg__rosidl_typesupport_fastrtps_cpp-22b4d9cf5078d5d09c4d.json",
+					"name" : "rslidar_msg__rosidl_typesupport_fastrtps_cpp",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "rslidar_msg__rosidl_typesupport_introspection_c::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-rslidar_msg__rosidl_typesupport_introspection_c-f025f88e0ed39c73c5ba.json",
+					"name" : "rslidar_msg__rosidl_typesupport_introspection_c",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "rslidar_msg__rosidl_typesupport_introspection_c__pyext::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-rslidar_msg__rosidl_typesupport_introspection_c__pyext-c69e1836ed01cfa4d21a.json",
+					"name" : "rslidar_msg__rosidl_typesupport_introspection_c__pyext",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "rslidar_msg__rosidl_typesupport_introspection_cpp::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-rslidar_msg__rosidl_typesupport_introspection_cpp-ce97a3955fd63d462877.json",
+					"name" : "rslidar_msg__rosidl_typesupport_introspection_cpp",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "rslidar_msg_uninstall::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-rslidar_msg_uninstall-4f772a68e4d4bf7cfedf.json",
+					"name" : "rslidar_msg_uninstall",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "uninstall::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-uninstall-008531f139dac3a9d628.json",
+					"name" : "uninstall",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "/home/nvidia/work/device_ws/build/rslidar_msg",
+		"source" : "/home/nvidia/work/device_ws/src/rslidar_msg"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 3
+	}
+}

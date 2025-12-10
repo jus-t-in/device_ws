@@ -1,0 +1,15 @@
+<launch>
+  <arg name="can_interface" default="can0" description="CAN interface name"/>
+  <arg name="out_object_topic" default="radar_object" description="topic"/>
+  <arg name="out_hz" default="1" description="[rad/s]"/>
+  <arg name="Threshold_x" default="0" description="[rad/s]"/>
+  <arg name="Threshold_y" default="0" description="[rad/s]"/>
+
+  <node pkg="ARS408_driver" exec="ARS408_CAN_node" name="ARS408_CAN" output="screen">
+    <param name="can_interface" value="$(var can_interface)"/>
+    <param name="out_object_topic" value="$(var out_object_topic)"/>
+    <param name="out_hz" value="$(var out_hz)"/>
+    <param name="Threshold_x" value="$(var Threshold_x)"/>
+    <param name="Threshold_y" value="$(var Threshold_y)"/>
+  </node>
+</launch>

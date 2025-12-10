@@ -1,0 +1,4 @@
+[console_scripts]
+multi_sync_pub = sync_pkg.multi_sync_pub:main
+multi_sync_rename = sync_pkg.multi_sync_rename:main
+

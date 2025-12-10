@@ -1,0 +1,242 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"childIndexes" : 
+					[
+						1
+					],
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-.-8164aded923b45b19b91.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.12"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						5,
+						6,
+						7,
+						8,
+						9,
+						10,
+						11,
+						12,
+						13,
+						14,
+						15,
+						16,
+						17,
+						18
+					]
+				},
+				{
+					"build" : "miivii_gmsl_camera__py",
+					"jsonFile" : "directory-miivii_gmsl_camera__py-c3c89d536a3f8ee19222.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.12"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 0,
+					"source" : "/home/nvidia/work/device_ws/build/miivii_gmsl_camera/miivii_gmsl_camera__py",
+					"targetIndexes" : 
+					[
+						4
+					]
+				}
+			],
+			"name" : "",
+			"projects" : 
+			[
+				{
+					"directoryIndexes" : 
+					[
+						0,
+						1
+					],
+					"name" : "miivii_gmsl_camera",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						4,
+						5,
+						6,
+						7,
+						8,
+						9,
+						10,
+						11,
+						12,
+						13,
+						14,
+						15,
+						16,
+						17,
+						18
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 0,
+					"id" : "ament_cmake_python_build_miivii_gmsl_camera_egg::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-ament_cmake_python_build_miivii_gmsl_camera_egg-79f5ca6df10b4f2e5e47.json",
+					"name" : "ament_cmake_python_build_miivii_gmsl_camera_egg",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "ament_cmake_python_copy_miivii_gmsl_camera::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-ament_cmake_python_copy_miivii_gmsl_camera-afa4bc3bdb7cad8bcbe6.json",
+					"name" : "ament_cmake_python_copy_miivii_gmsl_camera",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "miivii_gmsl_camera::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-miivii_gmsl_camera-8a1543e7f4f66998b975.json",
+					"name" : "miivii_gmsl_camera",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "miivii_gmsl_camera__cpp::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-miivii_gmsl_camera__cpp-69ca19f0870e02dbd500.json",
+					"name" : "miivii_gmsl_camera__cpp",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 1,
+					"id" : "miivii_gmsl_camera__py::@9a354cd93f470e06c310",
+					"jsonFile" : "target-miivii_gmsl_camera__py-9d5182fec98a02594490.json",
+					"name" : "miivii_gmsl_camera__py",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "miivii_gmsl_camera__rosidl_generator_c::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-miivii_gmsl_camera__rosidl_generator_c-b9d89fea8897414f98a3.json",
+					"name" : "miivii_gmsl_camera__rosidl_generator_c",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "miivii_gmsl_camera__rosidl_generator_py::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-miivii_gmsl_camera__rosidl_generator_py-a8c7f2196da1bee8adbf.json",
+					"name" : "miivii_gmsl_camera__rosidl_generator_py",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "miivii_gmsl_camera__rosidl_typesupport_c::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-miivii_gmsl_camera__rosidl_typesupport_c-aa65d3cf7ebd07dea01a.json",
+					"name" : "miivii_gmsl_camera__rosidl_typesupport_c",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "miivii_gmsl_camera__rosidl_typesupport_c__pyext::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-miivii_gmsl_camera__rosidl_typesupport_c__pyext-3eb5e3686c93c711acc0.json",
+					"name" : "miivii_gmsl_camera__rosidl_typesupport_c__pyext",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "miivii_gmsl_camera__rosidl_typesupport_cpp::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-miivii_gmsl_camera__rosidl_typesupport_cpp-c3dfaa604bba0da2aa7b.json",
+					"name" : "miivii_gmsl_camera__rosidl_typesupport_cpp",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "miivii_gmsl_camera__rosidl_typesupport_fastrtps_c::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-miivii_gmsl_camera__rosidl_typesupport_fastrtps_c-1ab38334b61212f5e30f.json",
+					"name" : "miivii_gmsl_camera__rosidl_typesupport_fastrtps_c",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "miivii_gmsl_camera__rosidl_typesupport_fastrtps_c__pyext::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-miivii_gmsl_camera__rosidl_typesupport_fastrtps_c__pyext-5e5d71ec02974d026c1c.json",
+					"name" : "miivii_gmsl_camera__rosidl_typesupport_fastrtps_c__pyext",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "miivii_gmsl_camera__rosidl_typesupport_fastrtps_cpp::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-miivii_gmsl_camera__rosidl_typesupport_fastrtps_cpp-1016ca2852028a0c170d.json",
+					"name" : "miivii_gmsl_camera__rosidl_typesupport_fastrtps_cpp",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "miivii_gmsl_camera__rosidl_typesupport_introspection_c::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-miivii_gmsl_camera__rosidl_typesupport_introspection_c-8b76b1b0f8432a108026.json",
+					"name" : "miivii_gmsl_camera__rosidl_typesupport_introspection_c",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "miivii_gmsl_camera__rosidl_typesupport_introspection_c__pyext::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-miivii_gmsl_camera__rosidl_typesupport_introspection_c__pyext-64fb881139b5791b22d5.json",
+					"name" : "miivii_gmsl_camera__rosidl_typesupport_introspection_c__pyext",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "miivii_gmsl_camera__rosidl_typesupport_introspection_cpp::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-miivii_gmsl_camera__rosidl_typesupport_introspection_cpp-6b99bb6990a240b3812e.json",
+					"name" : "miivii_gmsl_camera__rosidl_typesupport_introspection_cpp",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "miivii_gmsl_camera_node::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-miivii_gmsl_camera_node-68ffe2666054036c4ea2.json",
+					"name" : "miivii_gmsl_camera_node",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "miivii_gmsl_camera_uninstall::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-miivii_gmsl_camera_uninstall-076cebed7b45043f706e.json",
+					"name" : "miivii_gmsl_camera_uninstall",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "uninstall::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-uninstall-389656baf4b2ed7fc260.json",
+					"name" : "uninstall",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "/home/nvidia/work/device_ws/build/miivii_gmsl_camera",
+		"source" : "/home/nvidia/work/device_ws/src/miivii_gmsl_camera/miivii_gmsl_ros"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 3
+	}
+}
